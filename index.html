@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Web tutorial">
+	<meta name="aurthor" content="chimabu@gmail.com">
+	<meta name="refresh" content="30">
+	<meta name="keyword" content="html/css5">
+	<title>Rocket Desit - Mobile/desktop Web design</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="shortcut icon" type="image/png" href="img/icons/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+
+
+<!--- Slider Start -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+
+<!--- ADD IMAGE SLIDER HTML HERE -->
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- Slider End -->
+
+
+</body>
+</html>
